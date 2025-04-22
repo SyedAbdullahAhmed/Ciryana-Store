@@ -1,0 +1,29 @@
+# ========== Node.js / Next.js ==========
+client/my-app/.next/
+client/my-app/node_modules/
+client/my-app/.env.local
+client/my-app/.env
+client/my-app/.DS_Store
+client/my-app/npm-debug.log*
+client/my-app/yarn-debug.log*
+client/my-app/yarn-error.log*
+
+# ========== Golang ==========
+server/bin/
+server/tmp/
+server/*.exe
+server/*.out
+server/*.test
+server/coverage.out
+server/go.sum
+server/.DS_Store
+
+# ========== OS/System Files ==========
+*.log
+.DS_Store
+Thumbs.db
+
+# ========== Editor Configs ==========
+.vscode/
+.idea/
+*.swp
